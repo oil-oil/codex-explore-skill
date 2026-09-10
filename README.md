@@ -1,6 +1,6 @@
 # Explore
 
-Explore is a Codex skill for delegating broad codebase reconnaissance to explorer subagents before the main agent reads or edits many files.
+通过只读探索梳理代码结构、调用关系与关键文件，为实现、排错和评审提供依据。
 
 It is useful when a coding task touches an unfamiliar repository, spans multiple areas, or likely requires reading many files. The skill asks subagents to return concise findings, a key-files table, and suggested next reads, so the main conversation stays focused on decisions and implementation.
 
