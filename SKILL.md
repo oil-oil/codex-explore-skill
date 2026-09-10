@@ -1,6 +1,6 @@
 ---
 name: explore
-description: Use when a coding task requires broad codebase reconnaissance before implementation, especially unfamiliar repositories, architecture questions, feature tracing, bug investigations, refactors, migrations, reviews, or changes that may require reading roughly 10+ files or searching multiple independent areas. Delegates read-only exploration to explorer subagents first, keeps the main conversation lean, prevents the main agent from reading code while subagents are exploring, and requires a key-files table before the main agent proceeds with detailed code reading or edits.
+description: "通过只读子 Agent 探索陌生代码库、架构与调用关系，整理证据、关键文件和后续阅读建议。适用于跨模块排错、重构、迁移和评审前的大范围探索；不用于简单文件查找或局部小修改。"
 ---
 
 # Explore
